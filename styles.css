@@ -20,7 +20,7 @@ body{
     font-family: Poppins, sans-serif;
     color: var(--dark);
     display: flex;
-    background-color: var(--grey);
+    background-color: #f2f2f8;
     min-height: 100%;
 }
 
@@ -33,6 +33,14 @@ body{
 
 .main_nav > a{
     padding: var(--default-pad);
+    color: #111;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .main_content{
@@ -40,16 +48,32 @@ body{
 }
 
 .top_nav{
-    background-color: #ddd;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: var(--medium-pad) var(--default-pad);
 }
 
+.topnav_menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 41px;
+}
+
 .topnav_menu li{
     display: inline-block;
     list-style: none;
+}
+
+.topnav_menu a{
+    color: #5A5A5F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
 }
 
 main{
@@ -100,6 +124,10 @@ img{
     text-decoration: none;
     border-radius: 5px;
     padding: var(--small-pad) var(--medium-pad);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .charts{
@@ -125,4 +153,63 @@ img{
     position: fixed;
     left: var(--small-pad);
     bottom: var(--medium-pad);
+}
+
+.menu li{
+    list-style: none;
+    padding: 0 0 var(--medium-pad);
+}
+
+.menus ul{
+    padding-left: var(--medium-pad);
+}
+
+.menu a{
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: #5a5a5f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    gap: 21px;
+}
+
+.menu .sv{
+    margin-right: 8px;
+}
+
+.nome{
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.cargo{
+    color: rgba(95, 95, 95, 0.60);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.description{
+    color: #5A5A5F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.32px;
+}
+
+.number{
+    color: #004EDA;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
 }
